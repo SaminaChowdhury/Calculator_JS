@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  *{
+    box-sizing: border-box;
+  }
+  *{
+    outline: none;
+}
+/*==========
+   commom css ends
+============*/
+  
+  .container {
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#f5f1f4, #e6e6e6ee);
+  }
+  
+  .main {
+    width: 355px;
+    background: #e9c6c6;
+    border-radius: 25px;
+    padding-top: 45px;
+    padding-bottom:15px;
+  }
+  
+   #inputText {
+    height: 60px;
+    width: 305px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #f7ebf2;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#d1dce0, #edf5f8);
+  }
+  
+  form .buttons {
+    width: 305px;
+    margin: 8px 25px 0 25px;
+    padding: 20px 0;
+  }
+  
+  form .buttons input{
+    width: 62px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius:50%;
+    border: 1px solid #afa7a7;
+    background:#ffffff;
+  }
+  
+  form .buttons input:hover {
+    background: linear-gradient(#d1dce0, #edf5f8);
+  }
+  
+  input#clear {
+    background: #000000;
+    border: 1px solid #afa7a7;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  input#equal {
+    width: 275px;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    background: #000000;
+    border: 1px solid #afa7a7;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  /* all css ends */
